@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    overflow: auto;
+}
+
+input[type="number"] {
+    width: 100%;
+}
+
+.right {
+    height: 100%;
+    overflow: auto;
+    width: 52%;
+}
+
+.result-section {
+    overflow: auto;
+}
+i{
+    cursor: pointer;
+}
